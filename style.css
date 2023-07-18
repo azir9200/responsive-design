@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'lato', sans-serif;
+
+}
+
+.nav-container {
+  border: 2px solid red;
+  display: flex;
+}
+
+.logo-photo {
+  border: 2px solid green;
+  width: 50px;
+}
