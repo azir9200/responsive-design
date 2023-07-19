@@ -404,7 +404,19 @@ img {
   width: 800px;
 }
 
+
+
+#arcade {
+  border: 5px solid #ff42a5;
+  border-radius: 20px;
+  color: #ff42a5;
+}
+
 /*........footer setion.......*/
+.footer-main-container {
+  height: 500px;
+  background-color: black;
+}
 
 
 .icons {
@@ -426,19 +438,11 @@ img {
   margin: 40px;
 }
 
-#arcade {
-  border: 5px solid #ff42a5;
-  border-radius: 20px;
-  color: #ff42a5;
-}
-
-/*....footer section.....*/
-
-
-
 .logo-container p {
   font-size: 30px;
   font-weight: 100px;
+  height: 200px;
+  padding-bottom: 50px;
 }
 
 .game-spa {
@@ -455,13 +459,9 @@ img {
 
 .logo-container {
 
-
+  height: 200px;
   align-items: center;
   text-align: center;
-}
-
-.footer-main-container {
-  background-color: black;
 }
 
 .footer-text {
@@ -470,6 +470,7 @@ img {
   justify-content: space-around;
   text-align: center;
   font-size: 12px;
+  height: 70px;
 }
 
 .footer-term {
@@ -479,6 +480,7 @@ img {
   color: white;
   justify-content: space-around;
   align-items: center;
+  height: 60px;
 }
 
 .last-para {
