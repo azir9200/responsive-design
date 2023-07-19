@@ -1,0 +1,19 @@
+@media screen and (max-width:400px) {
+  .nav-container {
+    display: column;
+  }
+
+  .nav-items-container {
+    display: flex;
+    width: 100%;
+  }
+
+  .nav-items-container a {
+    margin-top: 20px;
+  }
+
+  .nav-items-container .follow-us {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
