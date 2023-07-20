@@ -1,7 +1,8 @@
-@media screen and (max-width:400px) {
+@media screen and (max-width:576px) {
   .nav-container {
     display: flex;
     flex-direction: column;
+
   }
 
   .nav-items-container {
@@ -17,5 +18,30 @@
   .nav-items-container .follow-us {
     width: 100%;
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
   }
+
+  .section-one,
+  .section-two-container,
+  .play-container,
+  .section-five {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .carrers-container,
+  .icons,
+  .word-game,
+  .foot-logo-container,
+  .footer-text-main,
+  .footer-text,
+  .footer-icons-main,
+  .our-story,
+  .footer-icons,
+  .footer-term {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
